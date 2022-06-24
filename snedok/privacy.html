@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snedok - главная страница</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.1.1/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mobile-nav">
+        <div class="mobile-nav__content">
+            <nav class="mobile-nav__menu">
+                <a href="#">Пресс-центр</a>
+                <a href="#">Доставка и оплата</a>
+                <a href="#">Поддержка</a>
+                <a href="#">Возврат</a>
+                <a href="#">COVID-19</a>
+
+                <div class="mobile-nav__divider"></div>
+                <a href="#" class="js-modal" data-modal="#test">
+                    <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.13889 0C2.74496 0 0 2.6605 0 5.95C0 10.4125 6.13889 17 6.13889 17C6.13889 17 12.2778 10.4125 12.2778 5.95C12.2778 2.6605 9.53282 0 6.13889 0ZM6.13889 8.075C4.92865 8.075 3.94643 7.123 3.94643 5.95C3.94643 4.777 4.92865 3.825 6.13889 3.825C7.34913 3.825 8.33135 4.777 8.33135 5.95C8.33135 7.123 7.34913 8.075 6.13889 8.075Z" fill="#40475A"/>
+                    </svg> Москва
+                </a>
+                <a href="#">
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.1228 16.3706L13.7761 11.4436C13.7458 11.3328 13.6782 11.2359 13.5846 11.1692C11.4499 9.64903 12.1497 10.1473 10.3248 8.84784C11.0175 8.13603 11.4168 7.17373 11.4168 6.16642C11.4168 4.15829 11.4302 4.04839 11.3713 3.68203C11.3495 1.57987 9.75628 0 7.64775 0H7.49289C5.38439 0 3.79114 1.57987 3.76939 3.68206C3.71052 4.04842 3.72387 4.15823 3.72387 6.16645C3.72387 7.1737 4.12317 8.13599 4.81589 8.84787C2.50654 10.4924 3.85592 9.53142 1.55607 11.1693C1.4625 11.2359 1.39484 11.3329 1.36456 11.4437L0.0178703 16.3707C-0.0686903 16.6874 0.17014 17 0.498286 17H7.07231V11.7367L7.57035 11.4095L8.0684 11.7367V17H14.6424C14.9707 17 15.2093 16.6871 15.1228 16.3706ZM7.2451 1.61374H7.89558C8.17063 1.61374 8.39362 1.83673 8.39362 2.11179C8.39362 2.38684 8.17063 2.60983 7.89558 2.60983H7.2451C6.97004 2.60983 6.74705 2.38684 6.74705 2.11179C6.74705 1.83673 6.97004 1.61374 7.2451 1.61374ZM7.07234 10.5449L5.9768 11.2647L4.51543 10.2847L5.63444 9.48779C6.09185 9.75458 6.58591 9.91419 7.07234 9.97681V10.5449ZM7.57035 9.01266C5.98839 9.01266 4.71996 7.72879 4.71996 6.16645C4.71993 5.80978 4.71953 5.51461 4.7192 5.26744L4.98695 5.65834C5.07979 5.79391 5.23352 5.87493 5.39784 5.87493H9.74283C9.90712 5.87493 10.0609 5.79391 10.1537 5.65834L10.4215 5.26744C10.4211 5.51457 10.4207 5.80978 10.4207 6.16645C10.4207 7.71481 9.16639 9.01266 7.57035 9.01266ZM8.06837 10.5449V9.97678C8.58069 9.9109 9.07084 9.74176 9.50623 9.48776L10.6252 10.2846L9.16387 11.2647L8.06837 10.5449ZM11.8013 14.8781H10.0549C9.77985 14.8781 9.55686 14.6551 9.55686 14.38C9.55686 14.105 9.77985 13.882 10.0549 13.882H11.8013C12.0764 13.882 12.2994 14.105 12.2994 14.38C12.2994 14.6551 12.0764 14.8781 11.8013 14.8781Z" fill="#40475A"/>
+                    </svg> Заказать курьера
+                </a>
+                <div class="mobile-nav__divider"></div>
+                <a href="#" class="js-modal" data-modal="#login">Вход</a>
+                <a href="#" class="js-modal" data-modal="#reg">Регистрация</a>
+                <a href="#"></a>
+            </nav>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <nav class="header__top_nav">
+                    <a href="#">Пресс-центр</a>
+                    <a href="#">Доставка и оплата</a>
+                    <a href="#">Поддержка</a>
+                    <a href="#">Возврат</a>
+                    <a href="#">COVID-19</a>
+                </nav>
+                <div class="header__top_contacts">
+                    <a href="#" class="header__phone">+7 (999) 999-99-99</a>
+                    <a href="#" class="header__mail">message@online.snedok.ru</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <a href="#" class="header__logo">
+                    <img src="images/logo.svg" alt="Снедок - логотип">
+                </a>
+                <a href="#" class="header__city js-modal" data-modal="#test">
+                    <img src="images/icons/marker.svg" alt="">
+                    <span class="header__border">Москва</span>
+                </a>
+                <a href="#" class="header__courier js-modal" data-modal="#test">
+                    <span class="header__border">Заказать курьера</span>
+                </a>
+
+                <a href="#" class="header__login js-modal" data-modal="#login">
+                    <img src="images/icons/login.svg" alt="">
+                    <span>Войти</span>
+                </a>
+                <span class="header__divider">/</span>
+                <a href="#" class="header__signup js-modal" data-modal="#reg">Регистрация</a>
+
+                <div class="mobile-search">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.875 16.75C13.2242 16.75 16.75 13.2242 16.75 8.875C16.75 4.52576 13.2242 1 8.875 1C4.52576 1 1 4.52576 1 8.875C1 13.2242 4.52576 16.75 8.875 16.75Z" stroke="#8DCC48" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M19 19L14.5 14.5" stroke="#8DCC48" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <a href="#" class="header__price">
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L5 4.5L8.5 1" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>116,93 руб.</span>
+                    <img src="images/icons/cart.svg" alt="">
+                </a>
+
+                <div class="burger">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="overlay"></div>
+    <aside class="aside-cart">
+        <div class="aside-cart__content">
+            <p class="aside-cart__title">Корзина</p>
+            <div class="aside-cart__sum">
+                <p class="aside-cart__sum--descr">Сумма покупок:</p>
+                <p class="aside-cart__sum--total">116,93 руб.</p>
+            </div>
+            <a href="/cart" class="aside-cart__submit">
+                оформить заказ
+            </a>
+            <a href="#" class="aside-cart__promo">
+                Ввести промокод
+            </a>
+            <div class="aside-cart__divider"></div>
+            <p class="">
+                Товары
+            </p>
+            <div class="aside-cart__products">
+                <div class="aside-cart__product">
+                    <div class="aside-cart__product--image">
+                        <img src="images/cart/prod1.jpg" alt="">
+                    </div>
+                    <div class="aside-cart__product--info">
+                        <p class="aside-cart__product--price">116,93 руб.</p>
+                        <span class="aside-cart__product--weight">1 кг. </span>
+                    </div>
+                    <div class="aside-cart__product--count">
+                        <div class="products__quanity">
+                            <span class="products__mark products-minus">-</span>
+                            <input type="number" class="products__input" value="1">
+                            <span class="products__mark products-plus">+</span>
+
+                        </div>
+                        <a href="#" class="aside-cart__product--remove">Удалить</a>
+                    </div>
+                </div>
+                <div class="aside-cart__product">
+                    <div class="aside-cart__product--image">
+                        <img src="images/cart/prod1.jpg" alt="">
+                    </div>
+                    <div class="aside-cart__product--info">
+                        <p class="aside-cart__product--price">0 руб.</p>
+                        <span class="aside-cart__product--weight">1 кг. </span>
+                    </div>
+                    <div class="aside-cart__product--count">
+                        <div class="products__quanity">
+                            <span class="products__mark products-minus">-</span>
+                            <input type="number" class="products__input" value="1">
+                            <span class="products__mark products-plus">+</span>
+
+                        </div>
+                        <a href="#" class="aside-cart__product--remove">Удалить</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </aside>
+    <main>
+        <div class="breadcrumbs">
+            <div class="container">
+                <nav class="breadcrumbs__container">
+                    <a href="#">Главная</a>
+                    <span>Политика конфиденциальности</span>
+
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="container privacy">
+            <h4 class="title">
+                Политика конфиденциальности
+            </h4>
+            <h5 class="subtitle privacy__subtitle">1. Общие положения</h5>
+
+            <p>Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных и меры по обеспечению безопасности
+                персональных данных, предпринимаемые Михайловым Иваном Сергеевичем (далее – Оператор). 1.1. Оператор ставит своей важнейшей целью и условием осуществления своей деятельности соблюдение прав и свобод человека и гражданина при обработке
+                его персональных данных, в том числе защиты прав на неприкосновенность частной жизни, личную и семейную тайну. 1.2. Настоящая политика Оператора в отношении обработки персональных данных (далее – Политика) применяется ко всей информации,
+                которую Оператор может получить о посетителях веб-сайта httpsː//thismywebsite·com.</p>
+
+            <h5 class="subtitle privacy__subtitle">2. Основные понятия, используемые в Политике </h5>
+            <p>2.1. Автоматизированная обработка персональных данных – обработка персональных данных с помощью средств вычислительной техники;</p>
+            <p>2.2. Блокирование персональных данных – временное прекращение обработки персональных</p>
+            данных (за исключением случаев, если обработка необходима для уточнения персональных данных); </p>
+            <p>2.3. Веб-сайт – совокупность графических и информационных материалов, а также программ для ЭВМ и баз данных, обеспечивающих их доступность в сети интернет по сетевому адресу httpsː//thismywebsite·com; </p>
+            <p>2.4. Информационная система персональных данных — совокупность содержащихся в базах данных персональных данных, и обеспечивающих их обработку информационных технологий и технических средств; </p>
+            <p>2.5. Обезличивание персональных данных — действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных; </p>
+            <p>2.6. Обработка персональных данных – любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию,
+                накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных; </p>
+            <p>2.7. Оператор – государственный орган, муниципальный орган, юридическое или физическое лицо, самостоятельно или совместно с другими лицами организующие и (или) осуществляющие обработку персональных данных, а также определяющие цели обработки
+                персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными; </p>
+            <p>2.8. Персональные данные – любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю веб-сайта httpsː//thismywebsite·com; </p>
+            <p>2.9. Пользователь – любой посетитель веб-сайта httpsː//thismywebsite·com; 2.10. Предоставление персональных данных – действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц; </p>
+            <p>2.11. Распространение персональных данных – любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том
+                числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом;</p>
+            <p>2.12. Трансграничная передача персональных данных – передача персональных данных на территорию иностранного государства органу власти иностранного государства, иностранному физическому или иностранному юридическому лицу; </p>
+            <p>2.13. Уничтожение персональных данных – любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных
+                и (или) уничтожаются материальные носители персональных данных.
+            </p>
+            <h5 class="subtitle privacy__subtitle">3. Оператор может обрабатывать следующие персональные данные Пользователя</h5>
+            <p>3.1. Фамилия, имя, отчество; </p>
+            <p>3.2. Номер телефона; </p>
+            <p>3.3. Адрес электронной почты; </p>
+            <p>3.4. Также на сайте происходит сбор и обработка обезличенных данных о посетителях (в т.ч. файлов «cookie») с помощью сервисов интернет-статистики (Яндекс Метрика и Гугл Аналитика и других). </p>
+            <p>3.5. Вышеперечисленные данные далее по тексту Политики объединены общим понятием Персональные данные. </p>
+            <h5 class="subtitle privacy__subtitle">4. Цели обработки персональных данных </h5>
+            <p>4.1. Цель обработки персональных данных Пользователя — заключение, исполнение и прекращение гражданско-правовых договоров; предоставление доступа Пользователю к сервисам, информации и/или материалам, содержащимся на веб-сайте httpsː//thismywebsite·com;
+                уточнение деталей заказа. </p>
+            <p> 4.2. Также Оператор имеет право направлять Пользователю уведомления о новых продуктах и услугах, специальных предложениях и различных событиях. Пользователь всегда может отказаться от получения информационных сообщений, направив Оператору
+                письмо на адрес электронной почты privacy@thismywebsite·com с пометкой «Отказ от уведомлений о новых продуктах и услугах и специальных предложениях». </p>
+            <p>4.3. Обезличенные данные Пользователей, собираемые с помощью сервисов интернет-статистики, служат для сбора информации о действиях Пользователей на сайте, улучшения качества сайта и его содержания. </p>
+            <h5 class="subtitle privacy__subtitle">5. Правовые основания обработки персональных данных </h5>
+            <p>5.1. Оператор обрабатывает персональные данные Пользователя только в случае их заполнения и/или отправки Пользователем самостоятельно через специальные формы, расположенные на сайте httpsː//thismywebsite·com. Заполняя соответствующие формы
+                и/или отправляя свои персональные данные Оператору, Пользователь выражает свое согласие с данной Политикой.</p>
+            <p> 5.2. Оператор обрабатывает обезличенные данные о Пользователе в случае, если это разрешено в настройках браузера Пользователя (включено сохранение файлов «cookie» и использование технологии JavaScript). </p>
+            <h5 class="subtitle privacy__subtitle">6. Порядок сбора, хранения, передачи и других видов обработки персональных данных</h5>
+            <p>Безопасность персональных данных, которые обрабатываются Оператором, обеспечивается путем реализации правовых, организационных и технических мер, необходимых для выполнения в полном объеме требований действующего законодательства в области
+                защиты персональных данных.</p>
+            <p> 6.1. Оператор обеспечивает сохранность персональных данных и принимает все возможные меры, исключающие доступ к персональным данным неуполномоченных лиц.</p>
+            <p>6.2. Персональные данные Пользователя никогда, ни при каких условиях не будут переданы третьим лицам, за исключением случаев, связанных с исполнением действующего законодательства. </p>
+            <p>6.3. В случае выявления неточностей в персональных данных, Пользователь может актуализировать их самостоятельно, путем направления Оператору уведомление на адрес электронной почты Оператора privacy@thismywebsite·com с пометкой «Актуализация
+                персональных данных». </p>
+            <p>6.4. Срок обработки персональных данных является неограниченным. Пользователь может в любой момент отозвать свое согласие на обработку персональных данных, направив Оператору уведомление посредством электронной почты на электронный адрес Оператора
+                privacy@thismywebsite·com с пометкой «Отзыв согласия на обработку персональных данных».</p>
+            <h5 class="subtitle privacy__subtitle"> 7. Трансграничная передача персональных данных </h5>
+            <p>7.1. Оператор до начала осуществления трансграничной передачи персональных данных обязан убедиться в том, что иностранным государством, на территорию которого предполагается осуществлять передачу персональных данных, обеспечивается надежная
+                защита прав субъектов персональных данных. </p>
+            <p>7.2. Трансграничная передача персональных данных на территории иностранных государств, не отвечающих вышеуказанным требованиям, может осуществляться только в случае наличия согласия в письменной форме субъекта персональных данных на трансграничную
+                передачу его персональных данных и/или исполнения договора, стороной которого является субъект персональных данных. </p>
+            <h5 class="subtitle privacy__subtitle">8. Заключительные положения </h5>
+            <p>8.1. Пользователь может получить любые разъяснения по интересующим вопросам, касающимся обработки его персональных данных, обратившись к Оператору с помощью электронной почты privacy@thismywebsite·com.</p>
+            <p> 8.2. В данном документе будут отражены любые изменения политики обработки персональных данных Оператором. Политика действует бессрочно до замены ее новой версией. 8.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет
+                по адресу httpsː//thismywebsite·com/privacy/.</p>
+        </div>
+        <!--container-->
+    </main>
+    <footer class="footer container">
+        <div class="footer__top">
+            <div class="footer__nav">
+                <p class="footer__nav--title">
+                    Покупателям
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L5 4.5L8.5 1" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </p>
+                <a href="#">Программа лояльности</a>
+                <a href="#">Подарочные карты</a>
+                <a href="#">Личный кабинет</a>
+                <a href="#">COVID-19</a>
+            </div>
+            <div class="footer__nav">
+                <p class="footer__nav--title">
+                    Партнёрам
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L5 4.5L8.5 1" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </p>
+                <a href="#">Поставщикам</a>
+                <a href="#">Документы</a>
+            </div>
+            <div class="footer__nav">
+                <p class="footer__nav--title">
+                    Разделы
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L5 4.5L8.5 1" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </p>
+                <a href="#">Каталог</a>
+                <a href="#">О компании</a>
+                <a href="#">Контакты</a>
+                <a href="#">Бренды</a>
+            </div>
+            <div class="footer__nav">
+                <p class="footer__nav--title">
+                    Информация
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L5 4.5L8.5 1" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </p>
+                <a href="#">Доставка</a>
+                <a href="#">Как заказать</a>
+                <a href="#">Возврат</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer__nav">
+                <p class="footer__nav--title">
+                    Документы
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L5 4.5L8.5 1" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </p>
+                <a href="#">Конфиденциальность</a>
+                <a href="#">Политка сайта</a>
+                <a href="#">Реквизиты</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <a href="#">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <p>Copyright © 2010-2020 Snedok marktplace. All rights reserved.</p>
+            </div>
+            <div class="footer__contact footer__contact_mx">
+                <p>Почта поддержки:</p>
+                <a href="#">Support@snedoc.ru</a>
+            </div>
+            <div class="footer__contact">
+                <p>Телефон поддержки:</p>
+                <a href="#">+7 (999) 999-99-99</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="test">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <p>Text</p>
+        </div>
+    </div>
+
+    <div class="modal" id="login">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <a href="#" class="modal__close">
+                <img src="images/icons/modal_close.svg" alt="">
+            </a>
+            <h4 class="modal__title">Вход</h4>
+            <form action="#">
+                <label for="" class="modal__label">
+                    <input type="text" class="modal__input" placeholder="E-mail или номер телефона">
+                </label>
+                <label for="" class="modal__label">
+                    <input type="password" class="modal__input" placeholder="Введите пароль">
+                </label>
+                <div class="modal__remember">
+                    <label>
+                        <input type="checkbox">
+                        Запомнить меня
+                    </label>
+                    <a href="#">Забыли пароль ?</a>
+                </div>
+                <input type="submit" class="modal__submit" value="Войти в аккаунт">
+                <p class="modal__text">
+                    У вас нет аккаунта? <a href="#">Создать аккаунт</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="reg">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <a href="#" class="modal__close">
+                <img src="images/icons/modal_close.svg" alt="">
+            </a>
+            <h4 class="modal__title">Регистрация</h4>
+            <form action="#">
+                <label for="" class="modal__label">
+                    <input type="text" class="modal__input js-input">
+                    <p class="modal__placeholder">Имя<span>*</span></p>
+                </label>
+                <label for="" class="modal__label">
+                    <input type="password" class="modal__input js-input">
+                    <p class="modal__placeholder">Фамилия<span>*</span></p>
+                </label>
+                <label for="" class="modal__label">
+                    <input type="password" class="modal__input js-input">
+                    <p class="modal__placeholder">Телефон<span>*</span></p>
+                
+                </label>
+                <label for="" class="modal__label">
+                    <input type="password" class="modal__input js-input">
+                    <p class="modal__placeholder">E-mail<span>*</span></p>
+                </label>
+                <label for="" class="modal__label">
+                    <input type="password" class="modal__input js-input">
+                    <p class="modal__placeholder">Пароль<span>*</span></p>
+                </label>
+
+                <input type="submit" class="modal__submit" value="Создать аккаунт">
+
+                <label class="modal__registration">
+                        <input type="checkbox">
+                        <span> Подтверждаю свое согласие на обработку 
+                            и хранение моих персональных данных 
+                            в соответствии с <a href="privacy.html">пользовательским соглашением</a></span>
+                </label>
+
+
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@6.1.1/swiper-bundle.min.js"></script>
+
+    <script src="scripts/search_trash.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
